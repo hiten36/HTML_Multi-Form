@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multi-step Form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <form method="POST" class="box1">
+                <div class="part1">
+                    <div class="inp">
+                        <h4>First Name</h4>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div class="inp">
+                        <h4>Last Name</h4>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    <div class="inp">
+                        <h4>Nick Name</h4>
+                        <input type="text" id="nname" name="nname">
+                    </div>
+                    <div class="btn">
+                        <button type="button" id="next1" class="next">Next</button>
+                    </div>
+                </div>
+                <div class="part2">
+                    <div class="inp">
+                        <h4>Email</h4>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div class="inp">
+                        <h4>Phone Number</h4>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                    <div class="btn">
+                        <button type="button" id="prev1" class="prev">Prev</button>
+                        <button type="button" id="next2" class="next">Next</button>
+                    </div>
+                </div>
+                <div class="part3">
+                    <div class="inp">
+                        <h4>Country</h4>
+                        <input type="text" id="country" name="country">
+                    </div>
+                    <div class="inp">
+                        <h4>Zip Code</h4>
+                        <input type="text" id="zip" name="zip">
+                    </div>
+                    <div class="inp">
+                        <h4>City</h4>
+                        <input type="text" id="city" name="city">
+                    </div>
+                    <div class="btn">
+                        <button type="button" id="prev2" class="prev">Prev</button>
+                        <button class="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
